@@ -1,0 +1,71 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 768358c2-c24b-42ec-b062-2918508f6cc0)
+
+  (paper "A4")
+
+  (title_block
+    (title "db_gd32f450")
+    (date "2023-07-18")
+    (company "4T")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 43.815 92.71) (size 87.63 62.865) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 255 1.0000))
+    (uuid 964bdcfc-2cef-4a45-86d1-4e18601e71c2)
+    (property "Sheetname" "LCD_Connect&Description" (at 43.815 91.9984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LCD_Connect&Description.kicad_sch" (at 43.815 156.1596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "4t_gd32f450_board"
+        (path "/768358c2-c24b-42ec-b062-2918508f6cc0" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 43.815 30.48) (size 87.63 52.07) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 255 1.0000))
+    (uuid a39d710c-8e76-4a3f-bb97-76903a1b0000)
+    (property "Sheetname" "MCU" (at 43.815 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 43.815 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "4t_gd32f450_board"
+        (path "/768358c2-c24b-42ec-b062-2918508f6cc0" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 144.78 30.48) (size 84.455 52.07) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 255 1.0000))
+    (uuid ee0ea19a-f649-405c-961e-35abd6118280)
+    (property "Sheetname" "connection&sdram" (at 144.78 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connection&sdram.kicad_sch" (at 144.78 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "4t_gd32f450_board"
+        (path "/768358c2-c24b-42ec-b062-2918508f6cc0" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

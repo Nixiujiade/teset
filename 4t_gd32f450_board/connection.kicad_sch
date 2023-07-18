@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cf7b3499-6c39-4a4c-a804-ed8a89b209b6)
+
+  (paper "A4")
+
+  (title_block
+    (title "db_gd32f450")
+    (date "2023-07-05")
+  )
+
+  (lib_symbols
+  )
+
+)
